@@ -36,6 +36,7 @@ export const zh: SidebarConfig = {
         }, {
           text: '资源',
           children: [
+            '/demo/index.md',
             '/api/intro/constant.md',
             '/faq/index.md',
             '/upgrade/index.md',
@@ -50,6 +51,9 @@ export const zh: SidebarConfig = {
   ],
   '/faq/': [
     '/faq/index.md'
+  ],
+  '/demo/': [
+    '/demo/index.md'
   ],
   '/upgrade/': [
     '/upgrade/index.md'

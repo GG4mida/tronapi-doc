@@ -7,6 +7,10 @@ export const zh: NavbarConfig = [
     link: '/api/',
   },
   {
+    text: '接入工具',
+    link: '/demo/'
+  },
+  {
     text: '常见问题',
     link: '/faq/'
   },
