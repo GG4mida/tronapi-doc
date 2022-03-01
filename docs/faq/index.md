@@ -80,7 +80,7 @@ sidebarDepth: 1
 
 ## 有没有接入示例 Demo？
 
-暂时没有。
+请参考文档：[接入工具](/demo/index)
 
 ## 有没有客服？:couple:
 
