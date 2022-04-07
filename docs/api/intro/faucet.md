@@ -46,13 +46,13 @@
 <img src="/images/faucet-trx.png" alt="" width="720"/>
 
 ::: warning
-单个地址，最多可获取 `1000 TRX` 用于测试。
+单个地址，最多可获取 `500 TRX` 用于测试。
 ::: 
 
 除此之外，商户也可以访问：[https://www.trongrid.io/faucet](https://www.trongrid.io/faucet)，按照提示申请测试 `TRX`。
 
 ## 余额查询
 
-商户申请 `FAU` 或 `TRX` 成功后，可前往页面：`https://shasta.tronscan.org/#/address/你的地址` 查看相关余额信息：
+商户申请 `FAU` 或 `TRX` 成功后，可前往页面：`https://shasta.tronscan.org/#/address/你的账户地址` 查看相关余额信息：
 
 <img src="/images/faucet-balance.png" alt="" width="720"/>

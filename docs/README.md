@@ -29,5 +29,6 @@ features:
   - title: 低价
     details: 我们不收取服务开通费用，不收取资金归集费用，仅收取低廉的交易手续费，助你最低成本打通交易闭环。
 
-footer: Copyright © 2022 Tronapi
+
+footer: Copyright © 2022 Tronapi - telegram:@jackslowfak
 ---

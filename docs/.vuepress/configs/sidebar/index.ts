@@ -12,7 +12,6 @@ export const zh: SidebarConfig = {
           children: [
             '/api/intro/convention.md',
             '/api/intro/safety.md',
-            '/api/intro/partial.md',
             '/api/intro/faucet.md',
             '/api/intro/test.md',
           ]
