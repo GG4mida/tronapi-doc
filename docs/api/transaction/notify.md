@@ -15,10 +15,9 @@ POST notify_url（商户在订单创建接口中指定）
 token | 官方订单号 | string(32) | 商户可使用该字段，调用 `订单查询` 接口，核实用户是否支付成功。
 order_id | 商讨自定义订单号 | string(64) | 商户自定义订单号，原样返回。
 amount | 订单金额 | string(16) | 商户发起接口请求时指定的 `订单金额`。
-currency | 订单货币单位 | string(8) | 商户发起接口请求时指定的 `订单币种`。
+currency | 订单货币单位 | string(8) | 商户发起接口请求时指定的 `订单币种`，固定为 `USDT`。
 coin_code | 订单支付币种 | string(16) | 商户发起接口请求时指定的 `支付币种`
 coin_amount | 订单支付金额 | string(16) | 订单显示的支付金额，由 `订单金额` + `订单币种` + `支付币种` 按照实时行情转换而来。
-coin_amount_pay | 用户支付金额 | string(16) | 用户实付金额。
 hash | 交易 hash | string(128) | 区块链交易 hash。商户可打开区块链浏览器查询交易详情。
 signature | 签名串 | string(32) | 安全校验签名串。
 
@@ -34,9 +33,8 @@ signature | 签名串 | string(32) | 安全校验签名串。
     "order_id": "ZGbqEadw1puEgDeU",
     "amount": "200.00",
     "currency": "CNY",
-    "coin_code": "FAU",
-    "coin_amount": "31.40",
-    "coin_amount_pay": "31.40",
+    "coin_code": "USDT",
+    "coin_amount": "31.42",
     "hash": "71f36f7c3eb073a24d0d3e49af6990928a2ae04764c06c07d414acd3f743ae9c",
     "signature": "526517f4603f25ab9ab686c1730f17b5"
 }

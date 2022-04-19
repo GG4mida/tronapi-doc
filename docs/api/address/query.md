@@ -1,13 +1,13 @@
-# 账户查询
+# 收款地址查询
 
 :::tip
-商户可调用该接口，查询账户余额信息。
+商户可调用该接口，查询已配置的收款地址信息。
 :::
 
 ## 接口地址
 
 ```shell:no-line-numbers
-GET https://pro.tronapi.com/api/wallet/query
+GET https://pro.tronapi.com/api/address/list
 ```
 
 ## 接口参数
@@ -24,15 +24,17 @@ signature | 签名串 | 必填 | string(32) | 安全校验签名串。
 ## 返回示例
 
 ```json:no-line-numbers
-{   
-    "success": true,
+{
     "code": 200,
-    "data": [{
-        "coin_code": "FAU",
-        "coin_amount": "1667.25"
-    }, {
-        "coin_code": "USDT",
-        "coin_amount": "222.32"
-    }]
+    "data": [
+        {
+            "address": "TNM78UYBFdMBoo5rgZvZpr28kxqRtDxMH8",
+            "create_time": "2022-04-10 15:43:33",
+            "enabled": true,
+            "receive_amount": "15.7",
+            "receive_latest": "2022-04-11 15:43:33"
+        }
+    ],
+    "success": true
 }
 ```

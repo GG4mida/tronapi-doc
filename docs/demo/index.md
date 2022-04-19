@@ -4,7 +4,7 @@ sidebarDepth: 1
 
 # 接入工具
 
-目前 `tronapi` 已提供 `php` & `java` & `node` 等编程语言的接入示例及开发工具包。商户可参考相关项目，快速接入 `tronapi` 的接口服务，
+目前 `Tronapi Pro` 已提供 `php` & `java` & `node` 等编程语言的接入示例及开发工具包。商户可参考相关项目，快速接入服务，
 
 ## php
 

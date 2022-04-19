@@ -1,5 +1,4 @@
 import type { SidebarConfig } from '@vuepress/theme-default'
-import { default as appConfig } from '../app';
 
 export const zh: SidebarConfig = {
   '/api/': [
@@ -12,9 +11,6 @@ export const zh: SidebarConfig = {
           children: [
             '/api/intro/convention.md',
             '/api/intro/safety.md',
-            '/api/intro/partial.md',
-            '/api/intro/faucet.md',
-            '/api/intro/test.md',
           ]
         }, {
           text: '订单',
@@ -25,25 +21,24 @@ export const zh: SidebarConfig = {
             '/api/transaction/query.md',
           ]
         }, {
+          text: '收款地址',
+          children: [
+            '/api/address/query.md',
+            '/api/address/add.md',
+            '/api/address/generate.md',
+            '/api/address/generate_add.md',
+          ]
+        }, {
           text: '账户',
           children: [
-            '/api/wallet/query.md',
-            '/api/wallet/withdrawal_create.md',
-            '/api/wallet/withdrawal_notify.md',
-            '/api/wallet/withdrawal_query.md',
-            '/api/wallet/withdrawal_auto.md'
+            '/api/account/info.md',
           ]
         }, {
           text: '资源',
           children: [
             '/demo/index.md',
-            '/api/intro/constant.md',
             '/faq/index.md',
-            '/upgrade/index.md',
-            {
-              text: '在线测试',
-              link: appConfig.links.test
-            }
+            '/upgrade/index.md'
           ]
         }
       ],
