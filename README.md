@@ -38,4 +38,4 @@
 
 ## 💬 联系
 
-可通过 [官网](https://doc.tronapi.com) `右下角` 反馈入口和我们进行即时联系。或者 `telegram` 添加账户：`@jackslowfak`。
+可通过 [官网](https://doc.tronapi.com) `右下角` 反馈入口和我们进行即时联系。或者 `telegram` 联系账户：`@jackslowfak`。

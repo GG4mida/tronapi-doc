@@ -58,7 +58,7 @@ sidebarDepth: 1
 
 ## 有没有接入示例 Demo？
 
-请参考文档：[接入工具](/demo/index)
+请参考文档：[接入工具](/demo/index.md)
 
 ## 有没有客服？:couple:
 
