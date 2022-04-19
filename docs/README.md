@@ -11,23 +11,23 @@ actions:
     link: /api/
     type: secondary
 features:
-  - title: 极速
-    details: 得益于波场良好的架构设计和编程技巧，其公链的运行效率在全球公链中都名列前茅。
+  - title: 安全
+    details: 付款直接进入商户钱包，不经平台中转，无需提现。
 
   - title: 体验
-    details: 波场 USDT.TRC20 的交易手续费几乎可以忽略不计，让用户付款不再望而却步，极大提升交易转换率。
+    details: 钱包扫码，一键付款，媲美支付宝 & 微信支付体验。
+
+  - title: 极速
+    details: 用户付款后秒级检测，超快回调。
 
   - title: 稳定
-    details: 我们的主力开发人员是前蚂蚁金服技术专家，专业极致，精益求精，绝不在最关键的地方掉链子。
-
-  - title: 安全
-    details: 系统对全链路交易数据进行了最高强度的加密处理，同时开启了高强度的身份验证，和钱打交道，务必居安思危。
-
-  - title: 匿名
-    details: 平台生成的每一笔订单，关联的都是一个全新未使用的地址，天然匿名，拒绝追踪，江湖没有大哥的传说。
+    details: 独家链上交易检测技术，绝不在关键时刻掉链子。
 
   - title: 低价
-    details: 我们不收取服务开通费用，不收取资金归集费用，仅收取低廉的交易手续费，助你最低成本打通交易闭环。
+    details: 仅收取 4% 交易手续费，没有任何其它费用。
+
+  - title: 匿名
+    details: 一次对接，全球收款，天然匿名，拒绝追踪。
 
 
 footer: Copyright © 2022 Tronapi - telegram:@jackslowfak

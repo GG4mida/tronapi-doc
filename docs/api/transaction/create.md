@@ -17,7 +17,7 @@ POST https://pro.tronapi.com/api/transaction/create
 public_key | public key	| 必填 | string(32)	| 商户 public key。
 amount | 订单金额 | 必填 | string(16) | 精确到小数点后2位。
 currency | 订单币种 | 必填 | string(8) | 订单币种单位。支持：`CNY`、`USD`。
-coin_code | 支付币种 | 必填 | string(16) | 订单支付币种。支持 `USDT`、`FAU`。
+coin_code | 支付币种 | 必填 | string(16) | 订单支付币种。固定为 `USDT`。
 notify_url | 完成后回调通知地址 | 选填 | string(256) | 1. 用户支付完成后，系统会发送一个 `post` 消息到这个地址。<br/>2. 该参数不需要 `urlencode`。例如：http://www.xxx.com/pay_notify。<br/> 3. 商户也可统一在后台对该参数进行配置。
 redirect_url | 完成后同步跳转地址 | 选填 | string(256) | 1. 用户支付完成后，系统会自动跳转到这个地址。<br/>2. 该参数不要 `urlencode`。例如：https://www.xxx.com/pay_return。
 order_id | 商户端订单号 | 必填 | string(64) | 系统在通知商户接口时，会带上这个参数。例：201710192541。
@@ -59,13 +59,13 @@ signature | 签名串 | string(32) | 安全校验签名串。
       "token": "55427eb1f9ef4608a8106e291fcecb71",
       "amount": "200.00",
       "currency": "CNY",
-      "coin_code": "FAU",
-      "coin_amount": "31.40",
+      "coin_code": "USDT",
+      "coin_amount": "31.42",
       "coin_address": "TCtLGN795ojMXfXFizLuGGtJyAxFzvAPH8",
       "qrcode_url": "https://pro.tronapi.com/api/transaction/qrcode?token=55427eb1f9ef4608a8106e291fcecb71",
       "cashier_url": "https://pro.tronapi.com/api/transaction/cashier?token=55427eb1f9ef4608a8106e291fcecb71",
       "signature": "d415fbd6726c39d0e0147e28aa2b2e76",
-      "timeout": 7200,
+      "timeout": 1800,
   },
   "success": true
 }
