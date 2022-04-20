@@ -56,15 +56,15 @@ signature | 签名串 | string(32) | 安全校验签名串。
 {
   "code": 200,
   "data": {
-      "token": "55427eb1f9ef4608a8106e291fcecb71",
-      "amount": "200.00",
+      "token": "80841278ad144a54a70d443c1354f7c1",
+      "amount": "100.00",
       "currency": "CNY",
       "coin_code": "USDT",
-      "coin_amount": "31.42",
-      "coin_address": "TCtLGN795ojMXfXFizLuGGtJyAxFzvAPH8",
-      "qrcode_url": "https://pro.tronapi.com/api/transaction/qrcode?token=55427eb1f9ef4608a8106e291fcecb71",
-      "cashier_url": "https://pro.tronapi.com/api/transaction/cashier?token=55427eb1f9ef4608a8106e291fcecb71",
-      "signature": "d415fbd6726c39d0e0147e28aa2b2e76",
+      "coin_amount": "15.66",
+      "coin_address": "TNN47tpcWKoNYuWGKEGMPdW653ZFSnDsy9",
+      "qrcode_url": "https://pro.tronapi.com/api/transaction/qrcode?token=80841278ad144a54a70d443c1354f7c1",
+      "cashier_url": "https://pro.tronapi.com/api/transaction/cashier?token=80841278ad144a54a70d443c1354f7c1",
+      "signature": "49acae00de1a6e003e2010a5563249db",
       "timeout": 1800,
   },
   "success": true

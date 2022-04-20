@@ -31,7 +31,7 @@ export const zh: SidebarConfig = {
         }, {
           text: '账户',
           children: [
-            '/api/account/info.md',
+            '/api/account/balance.md',
           ]
         }, {
           text: '资源',
