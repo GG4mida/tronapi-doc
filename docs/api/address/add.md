@@ -15,7 +15,7 @@ POST https://pro.tronapi.com/api/address/add
 参数名 | 含义 | 验证 | 类型 | 说明
 :-|:-|:-|:-|:-
 public_key | public key | 必填 | string(32) | 商户 public key。
-address | 收款地址 | 必填 | string(34) | 订单收款地址
+address | 收款地址 | 必填 | string(34) | 订单收款地址，请注意务必为 `波场` 网络以字母 `T` 开头的地址。
 signature | 签名串 | 必填 | string(32) | 安全校验签名串。
 
 :::tip

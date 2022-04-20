@@ -6,17 +6,17 @@
 
 ## 准备工作
 
-欢迎阅读 `Tronapi` 技术接入文档。在开始接入之前，你需要：
+欢迎阅读 `Tronapi Pro` 技术接入文档。在开始接入之前，你需要：
 
 1. 访问并登录 [商户后台](https://pro.tronapi.com)。
 2. 在商户后台查看技术接入必需的 `public key` & `private key`。
 3. 在商户后台配置你的 `收款地址`。
-4. 阅读我们有关 [接口约定](/api/intro/convention.md) 及 [安全说明](/api/intro/safety.md) 相关的说明。
+4. 阅读我们 [接口约定](/api/intro/convention.md) 及 [安全说明](/api/intro/safety.md) 相关的内容。
 
-然后你可以阅读后续文档，并尝试通过接口发起 [订单创建](/api/transaction/create.md) 请求。
+然后你可以参考后续文档，并尝试通过接口发起 [订单创建](/api/transaction/create.md) 请求。
 
 :::tip
-你也可以直接参考我们的 [接入工具](/demo/index.md)，快速接入 `tronapi` 的接口服务。
+你也可以直接参考 [接入工具](/demo/index.md)，快速接入我们的接口服务。
 :::
 
 ## 遇到问题？

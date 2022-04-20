@@ -31,7 +31,7 @@ signature | 签名串 | 必填 | string(32) | 安全校验签名串。
             "address": "TNM78UYBFdMBoo5rgZvZpr28kxqRtDxMH8",
             "create_time": "2022-04-10 15:43:33",
             "enabled": true,
-            "receive_amount": "15.7",
+            "receive_amount": "15.82",
             "receive_latest": "2022-04-11 15:43:33"
         }
     ],

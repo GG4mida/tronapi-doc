@@ -1,6 +1,6 @@
 # 订单官方收银台
 
-商户调用 `订单创建`（/api/transaction/create） 接口后，会返回如下格式数据：
+商户调用 `订单创建` 接口后，会返回如下格式数据：
 ```json:no-line-numbers
 {
   "code": 200,
@@ -23,6 +23,7 @@
 商户可直接从上述返回数据中，取出 `cashier_url` 字段，然后跳转至该地址供用户支付。
 
 ## 收银台
+
 跳转至 `cashier_url` 后，页面显示如下：
 
 <img src="/images/cashier.png" alt="" width="360"/>

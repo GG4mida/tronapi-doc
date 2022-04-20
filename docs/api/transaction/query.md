@@ -28,5 +28,5 @@ token | 官方 token | string(32) | 该参数可在订单创建接口的返回�
 ```
 
 :::tip
-当 `data.status` 字段值为 `true` 时，代表订单已支付，否则代表订单未支付。
+当 `data.status` 字段值为 `true` 时，代表订单已支付，否则代表未支付。
 :::
