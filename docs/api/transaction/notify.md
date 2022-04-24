@@ -12,7 +12,7 @@ POST notify_url（商户在订单创建接口中指定）
 ## 通知参数
 参数名 | 含义 | 类型 | 说明
 :-|:-|:-|:-
-token | 官方订单号 | string(32) | 商户可使用该字段，调用 `订单查询` 接口，核实用户是否支付成功。
+transaction_token | 官方订单号 | string(32) | 商户可使用该字段，调用 `订单查询` 接口，核实用户是否支付成功。
 order_id | 商讨自定义订单号 | string(64) | 商户自定义订单号，原样返回。
 amount | 订单金额 | string(16) | 商户发起接口请求时指定的 `订单金额`。
 currency | 订单货币单位 | string(8) | 商户发起接口请求时指定的 `订单币种`，固定为 `USDT`。
@@ -22,14 +22,14 @@ hash | 交易 hash | string(128) | 区块链交易 hash。商户可打开区块�
 signature | 签名串 | string(32) | 安全校验签名串。
 
 :::tip
-`signature` 的生成规则为：`toLowerCase(md5(token + order_id + amount + currency + coin_code + coin_amount + hash + private key))`。
+`signature` 的生成规则为：`toLowerCase(md5(transaction_token + order_id + amount + currency + coin_code + coin_amount + hash + private key))`。
 ::: 
 
 ## 通知示例
 
 ```json:no-line-numbers
 {
-    "token": "40b2ac118c8e4f0aab5219ceac0e3da8",
+    "transaction_token": "40b2ac118c8e4f0aab5219ceac0e3da8",
     "order_id": "ZGbqEadw1puEgDeU",
     "amount": "200.00",
     "currency": "CNY",
