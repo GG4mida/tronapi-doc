@@ -18,7 +18,7 @@ features:
     details: 钱包扫码，一键付款，媲美支付宝 & 微信支付体验。
 
   - title: 极速
-    details: 用户付款后秒级检测，超快回调。
+    details: 用户付款后秒级检测，极速回调。
 
   - title: 稳定
     details: 独家链上交易检测技术，绝不在关键时刻掉链子。

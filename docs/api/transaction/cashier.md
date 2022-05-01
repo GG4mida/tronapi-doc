@@ -26,7 +26,13 @@
 
 跳转至 `cashier_url` 后，页面显示如下：
 
-<img src="/images/cashier.png" alt="" width="360"/>
+> 电脑端
+
+<img src="/images/cashier_pc.png" alt="" width="320"/>
+
+> 移动端
+
+<img src="/images/cashier_mobile.png" alt="" width="320"/>
 
 ## 跳转
 
