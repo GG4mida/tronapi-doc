@@ -23,10 +23,11 @@ redirect_url | 完成后同步跳转地址 | 选填 | string(256) | 1. 用户支
 order_id | 商户端订单号 | 必填 | string(64) | 系统在通知商户接口时，会带上这个参数。例：201710192541。
 customer_id | 商户端用户编号 | 选填 | string(64) | 可以为用户名，也可以为数据库中的用户编号。例：xxx@aaa.com，xxx等。
 product_name | 商户端产品名称 | 选填 | string(64) | 该参数会显示在官方收银台页面顶部，留空则显示默认值。
+locale | 收银台多语言 | 选填 | string(12) | 该参数指定收银台多语言，支持：中文（zh-CN），英文（en-US），默认为中文。
 signature | 签名串 | 必填 | string(32) | 安全校验签名串。
 
 :::tip
-`signature` 的生成规则为：`toLowerCase(md5(amount + currency + coin_code + order_id + product_name + customer_id + notify_url + redirect_url + public key + private key))`。
+`signature` 的生成规则为：`toLowerCase(md5(amount + currency + coin_code + order_id + product_name + customer_id + notify_url + redirect_url + locale + public key + private key))`。
 :::
 
 ## 接口返回

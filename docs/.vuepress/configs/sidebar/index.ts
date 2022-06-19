@@ -17,8 +17,7 @@ export const zh: SidebarConfig = {
           children: [
             '/api/transaction/create.md',
             '/api/transaction/cashier.md',
-            '/api/transaction/notify.md',
-            '/api/transaction/query.md',
+            '/api/transaction/notify.md'
           ]
         }, {
           text: '收款地址',
