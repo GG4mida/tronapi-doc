@@ -32,6 +32,7 @@
 
 我们始终致力于将最先进、最实用的技术贡献给开源社区，以下列出部分已开源项目，感谢你的一路支持 🤝
 
+- `TronSender` 波场批量转账：[https://github.com/GG4mida/tronsender-web](https://github.com/GG4mida/tronsender-web)
 - `Tronapi Pro` 商户后台前端项目：[https://github.com/GG4mida/tronapi-web](https://github.com/GG4mida/tronapi-web)
 - `Tronapi Pro` 波场批量转账合约：[https://github.com/GG4mida/tronpay-contract-airdrop](https://github.com/GG4mida/tronpay-contract-airdrop)
 - `Korn Wallet` 模拟炒币全部系列：[https://github.com/GG4mida/korn_wallet](https://github.com/GG4mida/korn_wallet)
